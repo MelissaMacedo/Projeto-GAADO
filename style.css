@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+:root{
+    --color-bg:rgba(230, 230, 230, 0.183);
+    --color-button:rgba(22, 154, 22, 0.619);
+}
+body{
+   
+    width: 100rem;
+    background-color: var(--color-bg);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+.frame-cow{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;    
+}
+.menu button{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(63, 11, 11, 0.799);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.menu button:hover{
+   background-color: rgb(2, 63, 2);
+   opacity: 0.7;
+   transition: 0.3s;
+}
